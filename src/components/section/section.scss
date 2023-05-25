@@ -1,0 +1,19 @@
+.section {
+    margin-top: 1.5em;
+    &__titre {
+        color: white;
+        background-color: red;
+    }
+
+    &__card {
+        &-image {
+            width: 21.8125em;
+            height: 15em;
+        }
+
+        &-title {
+            color: black;
+            margin-top: 0.5em;
+        }
+    }
+}

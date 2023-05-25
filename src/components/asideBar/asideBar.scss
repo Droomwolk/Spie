@@ -1,0 +1,29 @@
+.asideBar {
+    background-color: rgb(88, 88, 194);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1em solid black;
+    border-radius: 1em;
+    padding: 2em 0.1em;
+    width: 6em;
+    height: 100vh;
+    &__logo {
+        width: 3em;
+        border-radius: 50%;
+        margin-bottom: 8em;
+    }
+    &__nav {
+        &-list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-bottom: 0.1em solid black;
+            padding: 2em 0;
+            line-height: 4;
+            &-icon {
+                width: 2em;
+            }
+        }
+    }
+}

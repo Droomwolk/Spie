@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F3F4;
+    padding: 2em 20em 5em 2em;
+    margin-top: 2em;
+    &__spie {
+        // width: 20vw;
+        &-logo {
+            width: 5em;
+            // margin-top: 1em;
+            &-group{
+                // background-color: cornflowerblue;
+                margin-top: 2em;
+                width: 20em;
+                &-list {
+                    // background-color: darkgreen;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+    &__pole {
+        display:flex;
+        // background-color: aqua;
+    }
+    &__cap {
+
+    }
+    &__mdph {
+
+    }
+    &__mile {
+
+    }
+    &__bar {
+        border: 1em solid black;
+    }
+}

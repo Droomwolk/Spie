@@ -1,0 +1,13 @@
+.carrousel {
+    // border: 0.1em solid black;
+    border-radius: 1em;
+    box-sizing: content-box;
+    padding: 1em;
+    width: 50em;
+    height: 20em;
+    // flex: 1;
+    &__img {
+        max-height: 20em;
+        // object-fit: contain;
+    }
+}

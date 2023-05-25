@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    width: 12em;
+    // padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+    // border: 0.1em solid black;
+    border-radius: 1em;
+    margin-top: 2em;
+    &__main {
+        // display: flex;
+        width: 7em;
+        margin: 0 1em;
+        // background-color: aqua;
+        line-height: 1em;
+        color: white;
+    }
+}

@@ -1,0 +1,87 @@
+.profil {
+    display: flex;
+    // background-color: crimson;
+    margin-bottom: 4em;
+    &__side {
+        // background-color: darkgreen;
+        flex: 1;
+        margin-left: 2em;
+        &-main {
+            margin-top: 2em;
+            &-cardContainer {
+                // background-color: aqua;
+                display: flex;
+                &-group {
+                    // background-color: coral;
+                    // flex: 1;
+                    margin-right: 2.5em;
+                    &-caroussel {
+                        
+                    }
+                    &-list {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+                &-aside {
+                    // border: 0.1em solid black;
+                    background-color: aquamarine;
+                    border-radius: 1em;
+                    flex: 1;
+                    padding: 2em;
+                    display: flex;
+                    flex-direction: column;
+                    align-content: space-between;
+                    &-information {
+                        display: flex;
+                        justify-content: space-between;
+                        flex: 1;
+                        // background-color: chocolate;
+                        &-sold {
+                            // background-color: darkviolet;
+                            margin-left: 2em;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: flex-start;
+                            flex: 2;
+                            line-height: 2em;
+                        }
+                    }
+                    &-list{
+                        margin-top: 3em;
+                        padding-left: 1em;
+                        line-height: 2em;
+                        list-style-type: circle;
+                    }
+                    &-button {
+                        margin-top: 3em;
+                        // flex:1;
+                        // width: 20em;
+                        background-color: green;
+                        cursor: pointer;
+                        text-align: center;
+                        padding: 1em;
+                        border-radius: 1em;
+                        color: white;
+                        font-weight: bold;
+                    }
+                }
+            }
+            &-navigation {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 2em;
+                &-text {
+                    display: flex;
+                }
+            }
+            &-partnerContainer {
+                display: flex;
+                justify-content: space-between;
+                // margin-bottom: 2em;
+            }
+        }
+    }
+}

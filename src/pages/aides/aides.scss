@@ -1,0 +1,92 @@
+.aides {
+    &__navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3em 9em 1em 12em;
+        background-color: rgb(30, 52, 52);
+        &-title {
+            font-size: 2.5em;
+            color: white;
+        }
+        &-group {
+            display: flex;
+            line-height: 1.5em;
+            color: white;
+            &-1 {
+                
+            }
+            &-2 {
+                margin: 0 1em 0 1em;
+            }
+            &-3 {
+
+            }
+        }
+    }
+    &__section {
+        // background-color: aquamarine;
+        padding: 0em 8em;
+        // margin-top: 2em;
+        display: flex;
+        &-group {
+            width: 60%;
+            flex: 3;
+            &-social {
+                
+                &-titre {
+                    background-color: #1B7B6D;
+                    color: white;
+                    padding: 0.5em 1em;
+                    width: 55%;
+                    margin-bottom: 1em;
+                    font-size: 1.5em;
+                    margin-top: 2em;
+                }
+                &-card {
+                    font-family: 'Nunito', sans-serif;
+                    font-weight: bold;
+                    font-size: large;
+                    // color: black;
+                    border-top: 0.1em;
+                    border-color: black;
+                    border-style: solid;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+            }
+        }
+        &-aside {
+            // background-color: chocolate;
+            // width: 30%;
+            flex: 1;
+            margin-left: 2em;
+            border-left: 0.1em;
+            border-style: solid;
+            border-color: black;
+            padding-left: 1em;
+            &-title {
+                font-size: 2em;
+                margin-bottom: 1.5em;
+                margin-top: 2em;
+            }
+            &-group {
+                &-date {
+                    color: #1B7B6D;
+                    margin-bottom: 0.7em;
+                    font-weight: 600;
+                }
+                &-titre {
+                    margin-bottom: 1em;
+                    font-weight: 900;
+                    font-size: 1.5em;
+                }
+                &-text {
+                    margin-bottom: 3em;
+                    width: 20em;
+                }
+            }
+        }
+    }
+}

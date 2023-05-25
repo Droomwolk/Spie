@@ -1,0 +1,41 @@
+.partner {
+    width: 18em;
+    height: auto;
+    margin-top: 2em;
+    // border: 0.1em solid black;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    &__img {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        object-fit: cover;
+        display: block;
+    }
+    &__group {
+        padding: 0.5em 0.5em 1.5em 0.5em;
+        line-height: 1em;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #e1dddd;
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+        &-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0.5em;
+            position: relative;
+            &-button {
+                position: absolute;
+                padding: 0.5em;
+                z-index: 100;
+                bottom: -2.6em;
+                font-weight: 900;
+            }
+        }
+    }
+}
+

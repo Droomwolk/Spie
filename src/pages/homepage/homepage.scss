@@ -1,0 +1,53 @@
+.homepage {
+    // background-color: coral;
+    height: 100vh;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 0;
+        // box-sizing: border-box;
+        // background-color: blue;
+        &-logo {
+            width: 8em;
+            box-sizing: content-box;
+        }
+        &-nav {
+            // background-color: aquamarine;
+            display: flex;
+            justify-content: space-between;
+            width: 40em;
+            &-searchbar {
+                width: 20em;
+            }
+            &-group{
+                // background-color: crimson;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 20em;
+                &-list {
+                    display: flex;
+                    :nth-child(2) {
+                        padding-left: 2em;
+                    }
+                }
+            }
+        }
+    }
+    &__main {
+        padding-top: 6em;
+        &-slogan {
+            width: 90vw;
+            font-weight: 400;
+            font-size: 4em;
+            text-transform: uppercase;
+            font-family: sans-serif;
+        }
+        &-definition {
+            font-style: oblique;
+            width: 40vw;
+            padding: 2em 0;
+        }
+    }
+}
