@@ -1,7 +1,7 @@
 import React from 'react'
-import styled from 'styled-components';
+import styled from 'styled-components'
 
-import Insertion from '../../assets/img/insertion.jpg'
+import Insertion from '../../assets/img/Insertion.jpg'
 import SPIE from '../../assets/img/SPIE.png'
 import CDG from '../../assets/img/CDG.jpg'
 import POLE from '../../assets/img/Pole.png'
