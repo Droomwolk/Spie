@@ -47,7 +47,7 @@ const profil = () => {
     <div className='profil'>
         <AsideBar/>
         <div className='profil__side'>
-            <Header/>
+            {/* <Header/> */}
             <main className='profil__side-main'>
               <Cardcontainer className='profil__side-main-cardContainer'>
                 <div className='profil__side-main-cardContainer-group'>
@@ -55,9 +55,9 @@ const profil = () => {
                         <Caroussel pictures={pictures} />
                     </div>
                     <Card className='profil__side-main-cardContainer-group-list'>
-                        <Carte width={"4em"} border={"0.1em"} backgroundColor={"pink"} logo={Camera} logo1={Chevron1} title="live" subtitle="12 webinaires" />
-                        <Carte width={"4em"} border={"0.1em"} backgroundColor={"green"} logo={Camera} logo1={Chevron1} title="Upcoming" subtitle="8 webinars" />
-                        <Carte width={"4em"} border={"0.1em"} backgroundColor={"purple"} logo={Camera} logo1={Chevron1} title="Finished" subtitle="23 webinars" />
+                        <Carte width={"14em"} border={"0.1em"} display={"flex"} flexDirection={"row"} alignItems={"center"} backgroundColor={"pink"} logo={Camera} logo1={Chevron1} title="live" subtitle="12 webinaires" />
+                        <Carte width={"14em"} border={"0.1em"} display={"flex"} flexDirection={"row"} alignItems={"center"} backgroundColor={"green"} logo={Camera} logo1={Chevron1} title="Upcoming" subtitle="8 webinars" />
+                        <Carte width={"14em"} border={"0.1em"} display={"flex"} flexDirection={"row"} alignItems={"center"} backgroundColor={"purple"} logo={Camera} logo1={Chevron1} title="Finished" subtitle="23 webinars" />
                     </Card>
                 </div>
                 <aside className='profil__side-main-cardContainer-aside'>

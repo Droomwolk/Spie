@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Header from '../components/header/header'
 import Profil from '../pages/profil/profil'
 import Homepage from '../pages/homepage/homepage'
@@ -12,10 +12,11 @@ import data from '../data/data'
 import '../styles/main.scss'
 
 function App() {
-
+  const location = useLocation();
   return (
     <div className='App'>
       <Header/>
+      {/* {location.pathname !== '/profil' && <Header/>} */}
       <Routes path="/" element={<App />}>
         {/* <Homepage/> */}
         <Route path="home" element={<Homepage2/>} />

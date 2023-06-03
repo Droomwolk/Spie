@@ -3,10 +3,13 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import ReactImageMagnify from 'react-image-magnify';
 
-// import Seminaire1 from '../../assets/img/Seminaire1.png';
-// import Seminaire2 from '../../assets/img/Seminaire2.png';
-// import Seminaire3 from '../../assets/img/Seminaire3.jpeg';
-// import Seminaire4 from '../../assets/img/Seminaire4.png';
+import Seminaire1 from '../../assets/img/Seminaire1.png';
+import Seminaire2 from '../../assets/img/Seminaire2.png';
+import Seminaire3 from '../../assets/img/Seminaire3.jpeg';
+import Seminaire4 from '../../assets/img/Seminaire4.png';
+import Affiche from '../../assets/img/Affiche.png';
+import Bik from '../../assets/img/Bik.jpeg';
+import Clause from '../../assets/img/Clause.jpg';
 
 const Card = ({ date, month, image, title }) => (
     <div style={{ display: 'flex', flexDirection: 'column', width: '20em', height: '20em', overflow: 'hidden', borderRadius: '20px', background: '#fff', boxShadow: '0 0 10px rgba(0,0,0,0.1)' }}>
@@ -21,7 +24,8 @@ const Card = ({ date, month, image, title }) => (
       style={{
         transition: 'all 0.3s ease-in-out',
         width: '100%',
-        height: 'auto'
+        height: '60%',
+        objectFit: 'contain'
       }}
       onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
       onMouseLeave={(e) => e.currentTarget.style.transform = ''}
@@ -63,39 +67,39 @@ export default function Agenda() {
   const cardsData = [
     {
       date: '23',
-      month: 'May',
-      image: '',
-      title: 'Date du jour',
+      month: 'Mai',
+      image: Seminaire1,
+      title: 'Séminaire Insertion social',
     },
     {
         date: '01',
         month: 'Juin',
-        image: 'src/assets/img/Seminaire1.png',
+        image: Clause,
         title: 'Séminaire Insertion social',
       },
       {
         date: '06',
         month: 'Juin',
-        image: 'src/assets/img/Seminaire2.png',
+        image: Affiche,
         title: 'Séminaire Lancement SPIE',
       },
       {
         date: '10',
         month: 'Juin',
-        image: 'src/assets/img/Seminaire3.jpeg',
+        image: Bik,
         title: 'BikAJob à Marie-Galante',
       },
       {
         date: '14',
         month: 'Juin',
-        image: 'src/assets/img/Seminaire4.png',
-        title: 'Accompagnement BRSA',
+        image: Seminaire4,
+        title: 'Séminaire MDPH',
       },
       {
         date: '28',
         month: 'Juin',
-        image: 'image1.jpg',
-        title: "tous engagé pour l'inclusion économique",
+        image: Seminaire2,
+        title: "Séminaire Politique de l'emploi",
       },
       {
         date: '02',

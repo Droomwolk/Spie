@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Card = ({backgroundColor, display, justifyContent, alignItems, title, subtitle, logo, logo1, width, border}) => {
+const Card = ({backgroundColor, display, flexDirection, justifyContent, alignItems, title, subtitle, logo, logo1, width, border}) => {
   return (
-    <div className='card'style={{backgroundColor}}>
+    <div className='card'style={{backgroundColor, width, display, flexDirection, alignItems}}>
         <img src={logo} alt="logo" className='card__image'/>
             <div className='card__main'>
                 <p style={{fontWeight: "bold"}} >{title}</p>

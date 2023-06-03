@@ -20,12 +20,14 @@ const header = () => {
           <li>Contact</li>
         </ul>
         {/* <input type="search" placeholder='Rechercher' className='header__search' /> */}
+        <Link to="/profil" >
          <div className='header__picture'>
             {/* <FaBell color='cyan' size={20}/> */}
             <img src={Cloche} alt="cloche" className='header__picture-cloche'/>
             <img src={Homme} alt="Avatar" className='header__picture-homme'/>
             <p>Nom Prénom</p>
          </div>
+        </Link>
     </div>
   )
 }

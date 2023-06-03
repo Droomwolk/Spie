@@ -7,6 +7,7 @@ import CDG from '../../assets/img/CDG.jpg'
 import POLE from '../../assets/img/Pole.png'
 import CAP from '../../assets/img/Cap.png'
 import CAF from '../../assets/img/Caf.png'
+import MILE from '../../assets/img/MileGwada.jpg'
 import Partner from '../../components/partner/partner'
 import Carousel from '../../components/caroussel/caroussel'
 import Image from '../../components/imageborder/imageborder'
@@ -74,7 +75,7 @@ const SearchInput = styled.input`
 
     const pictures = [
         {
-          picture: SPIE,
+          picture: CDG,
           id: 0,
         },
         {
@@ -90,7 +91,7 @@ const SearchInput = styled.input`
           id: 3,
         },
         {
-          picture: SPIE,
+          picture: MILE,
           id: 4,
         },
       ];
@@ -123,6 +124,11 @@ const SearchInput = styled.input`
                     <img src={CAF} alt="caf" className='homepage2__consortium-list-image' />
                   </a>
                 </li>
+                <li>
+                  <a href="https://missionlocaleguadeloupe.fr/">
+                    <img src={MILE} alt="mission locale" className='homepage2__consortium-list-image' />
+                  </a>
+                </li>
             </ul>
         </div>
         <div style={{ padding: '0 4em'}} >
@@ -152,10 +158,10 @@ const SearchInput = styled.input`
           <h2 className='homepage2__article2'><span className='homepage2__article2-debut'>L'actu</span> de mon département</h2>
           <div className='homepage2__article2-group'>
             <div className='homepage2__article2-group-card'>
-              <ImageBorder imageUrl={CAF} title="La rentré de l'emploi" subtitle='Universe' />
+              <ImageBorder imageUrl={CAF} title="Mes démarches" subtitle='Aides' />
               <ImageBorder imageUrl={CAP} title="L'emploi chez les handicapés" subtitle='Handicap' />
-              <ImageBorder imageUrl={CDG} title="La rentré de l'emploi" subtitle='Universe' />
-              <ImageBorder imageUrl={CAF} title="La rentré de l'emploi" subtitle='Universe' />
+              <ImageBorder imageUrl={CDG} title="Insertion par l'emploi" subtitle='Insertion' />
+              <ImageBorder imageUrl={MILE} title="La rentré de l'emploi" subtitle='Formation' />
             </div>
             <aside className='homepage2__article2-group-reseaux'>
               <div className='homepage2__article2-group-reseaux-info'>

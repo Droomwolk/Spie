@@ -5,6 +5,7 @@ import CDG from '../../assets/img/CDG.jpg'
 import POLE from '../../assets/img/Pole.png'
 import CAP from '../../assets/img/Cap.png'
 import CAF from '../../assets/img/Caf.png'
+import MILE from '../../assets/img/Mile.png'
 
 import Image1 from '../../assets/img/rendezvous.png'; // Change path to real image
 import Image2 from '../../assets/img/carnet.png'; // Change path to real image
@@ -36,6 +37,7 @@ const Spie = () => (
         <Partner picture={CAP} title="Aide au parcours vers l'emploi" author="Personnes handicapés"/>
         <Partner picture={CAF} title="Revenu de solidarité active (RSA)" author="BRSA"/>
         <Partner picture={CDG} title="Mdph" author="par Bertrand"/>
+        <Partner picture={MILE} title="Mdph" author="par Bertrand"/>
     </div>
     <h2 className="spie-page__subtitle">Public cible du SPIE</h2>
     <table className="spie-page__public-table">
