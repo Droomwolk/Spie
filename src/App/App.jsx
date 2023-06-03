@@ -17,7 +17,7 @@ function App() {
     <div className='App'>
       <Header/>
       {/* {location.pathname !== '/profil' && <Header/>} */}
-      <Routes path="/" element={<Homepage2 />}>
+      <Routes path="home" element={<Homepage2 />}>
         {/* <Homepage/> */}
         <Route path="home" element={<Homepage2/>} />
         <Route path="aides" element={<Aides datas={data} />} />
