@@ -1,22 +1,27 @@
+import Permis from "../assets/img/permis.jpg";
+import Mobilite from "../assets/img/mobilite.jpg";
+import Social from "../assets/img/social.jpg";
+import Femme from "../assets/img/femme.jpg";
+
 export default {
   data: [
     {
       titre: "INSERTION ET RETOUR À L'EMPLOI",
       cards: [
         {
-          image: "src/assets/img/permis.jpg",
+          image: Permis,
           title: "Aides au permis de conduire",
         },
         {
-          image: "src/assets/img/mobilite.jpg",
+          image: Mobilite,
           title: "Solution Mobilité Emploi",
         },
         {
-          image: "src/assets/img/social.jpg",
+          image: Social,
           title: "Coup de pouce Insertion",
         },
         {
-          image: "src/assets/img/femme.jpg",
+          image: Femme,
           title: "Coup de pouce Social",
         },
       ],
@@ -25,19 +30,19 @@ export default {
       titre: "LOGEMENT",
       cards: [
         {
-          image: "src/assets/img/permis.jpg",
+          image: Permis,
           title: "Aides au permis de conduire",
         },
         {
-          image: "src/assets/img/mobilite.jpg",
+          image: Mobilite,
           title: "Solution Mobilité Emploi",
         },
         {
-          image: "src/assets/img/social.jpg",
+          image: Social,
           title: "Coup de pouce Insertion",
         },
         {
-          image: "src/assets/img/femme.jpg",
+          image: Femme,
           title: "Coup de pouce Social",
         },
       ],
@@ -46,19 +51,19 @@ export default {
       titre: "ÉDUCATION ET JEUNESSE",
       cards: [
         {
-          image: "src/assets/img/permis.jpg",
+          image: Permis,
           title: "Aides au permis de conduire",
         },
         {
-          image: "src/assets/img/mobilite.jpg",
+          image: Mobilite,
           title: "Solution Mobilité Emploi",
         },
         {
-          image: "src/assets/img/social.jpg",
+          image: Social,
           title: "Coup de pouce Insertion",
         },
         {
-          image: "src/assets/img/femme.jpg",
+          image: Femme,
           title: "Coup de pouce Social",
         },
       ],
