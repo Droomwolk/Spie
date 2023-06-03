@@ -1,4 +1,5 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from 'react';
+import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
 import Header from '../components/header/header'
 import Profil from '../pages/profil/profil'
 import Homepage from '../pages/homepage/homepage'
@@ -13,20 +14,25 @@ import '../styles/main.scss'
 
 function App() {
   const location = useLocation();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (location.pathname === '/') {
+      navigate('/home');
+    }
+  }, [location, navigate]);
   return (
     <div className='App'>
-      <Header/>
-      {/* {location.pathname !== '/profil' && <Header/>} */}
-      <Routes path="home" element={<Homepage2 />}>
-        {/* <Homepage/> */}
-        <Route path="home" element={<Homepage2/>} />
-        <Route path="aides" element={<Aides datas={data} />} />
-        <Route path="profil" element={<Profil />} />
-        <Route path="spie" element={<Spie/>} />
-        <Route path="calendar" element={<Calendar/>} />
-      </Routes>
-      <Footer/>
-    </div>
+    <Header/>
+    <Routes>
+      <Route path="home" element={<Homepage2/>} />
+      <Route path="aides" element={<Aides datas={data} />} />
+      <Route path="profil" element={<Profil />} />
+      <Route path="spie" element={<Spie/>} />
+      <Route path="calendar" element={<Calendar/>} />
+    </Routes>
+    <Footer/>
+  </div>
   )
 }
 
