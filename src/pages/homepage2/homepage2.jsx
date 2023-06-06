@@ -24,6 +24,7 @@ import RendezVous from '../../assets/icon/rendezvous.png'
 import Search from '../../assets/icon/search.png'
 import Valide from '../../assets/icon/valide.png'
 import Agenda from '../../components/agenda/agenda';
+import Presentation from '../../assets/img/presentation.jpg'
 
 const Homepage2 = () => {
 
@@ -98,7 +99,7 @@ const SearchInput = styled.input`
   return (
     <div className='homepage2'>
         <figure className='homepage2__figure'>
-            <img src={Insertion} alt="Hero" className='homepage2__figure-banniere'/>
+            <img src={Presentation} alt="Hero" className='homepage2__figure-banniere'/>
             {/* <Caroussel pictures={pictures} /> */}
         </figure>
         <div className='homepage2__consortium'>

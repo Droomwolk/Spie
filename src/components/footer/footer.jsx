@@ -5,6 +5,7 @@ import Mdph from '../../assets/img/Mdph.jpg'
 import Mile from '../../assets/img/Mile.png'
 import Msa from '../../assets/img/Msa.png'
 import Pole from '../../assets/img/Pole.png'
+import Cdg from '../../assets/img/CDG.jpg'
 import styled from 'styled-components';
 import '../../styles/main.scss'
 
@@ -12,8 +13,8 @@ const footer = () => {
 const SPIE = styled.div``;
 const POLE = styled.div``;
 const CAP = styled.div``;
+const CAF = styled.div``;
 const MILE = styled.div``;
-const MDPH = styled.div``;
   return (
     <div className='footer'>
         <SPIE className='footer__spie'>
@@ -30,13 +31,13 @@ const MDPH = styled.div``;
                         <img src={Cap} alt="logo" style={{borderRadius: '50%', width: '2em'}}/>
                     </li>
                     <li>
-                        <img src={Mdph} alt="logo" style={{borderRadius: '50%', width: '2em'}}/>
+                        <img src={Pole} alt="logo" style={{borderRadius: '50%', width: '2em'}}/>
                     </li>
                     <li>
                         <img src={Mile} alt="logo" style={{borderRadius: '50%', width: '2em'}}/>
                     </li>
                     <li>
-                        <img src={Msa} alt="logo" style={{borderRadius: '50%', width: '2em'}}/>
+                        <img src={Cdg} alt="logo" style={{borderRadius: '50%', width: '2em'}}/>
                     </li>
                 </ul>
             </div>
@@ -57,17 +58,17 @@ const MDPH = styled.div``;
                 <li>Aides</li>
             </ul>
         </CAP>
-        <MDPH className='footer__mdph'>
+        <CAF className='footer__mdph'>
             <ul style={{lineHeight: '1.8'}}>
                 <li style={{fontWeight:'bold'}}>Mdph</li>
                 <li>À propos</li>
                 <li>Services</li>
                 <li>Aides</li>
             </ul>
-        </MDPH>
+        </CAF>
         <MILE className='footer__mile'>
             <ul style={{lineHeight: '1.8'}}>
-                <li style={{fontWeight:'bold'}}>Mile</li>
+                <li style={{fontWeight:'bold'}}>Mission Locale</li>
                 <li>À propos</li>
                 <li>Services</li>
                 <li>Aides</li>

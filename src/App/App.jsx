@@ -8,6 +8,7 @@ import Footer from '../components/footer/footer'
 import Calendar from '../components/calendar/calendar'
 import Aides from '../pages/aides/aides'
 import Spie from '../pages/spie/spie'
+import Forum from '../components/forum/forum'
 // import 'react-calendar/dist/Calendar.css';
 import data from '../data/data'
 import '../styles/main.scss'
@@ -30,6 +31,7 @@ function App() {
       <Route path="profil" element={<Profil />} />
       <Route path="spie" element={<Spie/>} />
       <Route path="calendar" element={<Calendar/>} />
+      <Route path="forum" element={<Forum/>} />
     </Routes>
     <Footer/>
   </div>

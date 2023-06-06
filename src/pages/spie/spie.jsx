@@ -33,11 +33,11 @@ const Spie = () => (
       </li>
     </ul> */}
     <div className="spie-page__members">
-        <Partner picture={POLE} title="Offre d'emploi" author="Demandeur d'emploi"/>
-        <Partner picture={CAP} title="Aide au parcours vers l'emploi" author="Personnes handicapés"/>
-        <Partner picture={CAF} title="Revenu de solidarité active (RSA)" author="BRSA"/>
-        <Partner picture={CDG} title="Mdph" author="par Bertrand"/>
-        <Partner picture={MILE} title="Mdph" author="par Bertrand"/>
+        <Partner picture={POLE} title="Pôle d'emploi" author="Demandeur d'emploi"/>
+        <Partner picture={CAP} title="Cap Emploi" author="Emploi pour personnes handicapées"/>
+        <Partner picture={CAF} title="CAF" author="Prestations familiales et sociales"/>
+        <Partner picture={CDG} title="Conseil départemental" author="Développement local"/>
+        <Partner picture={MILE} title="Mission Local" author="Insertion professionnelle des jeunes"/>
     </div>
     <h2 className="spie-page__subtitle">Public cible du SPIE</h2>
     <table className="spie-page__public-table">
